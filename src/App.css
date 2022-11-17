@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #F2F4F4;
+}
+
+.container {
+  width: 100%;
+
+}
+
+@media (min-width:767px) {
+  .container {
+    width: 760px;
+
+  }
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #2E4053;
+  padding: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #AEB6BF;
+  font-size: large;
+  font-weight: bold;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+.about p.text {
+  margin: 20px;
+  font-weight: 500;
+  color: #2E4053;
+  text-align: left;
+}
+
+.about Button .back-home-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+
+}
+.no-item{
+  color: #2E4053;
+}
+.product-flex{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.product-block{
+  width: 250px;
+  background-color: #AEB6BF;
+  padding: 5px;
+  border-radius: 10px;
+
+}
+.product-block img{
+  width: 100%;
+  border-radius: inherit;
+}
+.product-info{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.product-info div{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.product-info .product-title{
+  padding: 5px;
+  background-color: #2E4053;
+  border-radius: 5px;
+  color: #F2F4F4;
+}
+.product-block Button .more-info-link{
+  text-decoration: none;
+  color: #F2F4F4;
+
+}
+.more-info-flex img{
+  border-radius: 10px;
+}
+.more-info-flex {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+.more-info-flex .info-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+}
+.more-info-flex Button .info-link{
+  text-decoration: none;
+  color: #F2F4F4;
+}
+.info-list h2{
+  color: #2E4053;
+}
+.info-list .info-titles{
+  text-align: left;
+}
+.info-list .info-titles div{
+  margin: 20px;
+}
+.info-list .info-titles div .info-title{
+  background-color: #2E4053;
+  padding: 5px;
+  border-radius: 5px;
+  color: #F2F4F4;
+}
+.info-list .info-titles div span:not(.info-title){
+  color: #2E4053;
+  font-weight: 500;
+  margin-left: 5px;
+}
